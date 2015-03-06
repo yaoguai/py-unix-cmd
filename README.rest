@@ -1,0 +1,18 @@
+py-unix-cmd
+===========
+
+**GitHub:** <https://github.com/yaoguai/py-unix-cmd>
+
+This is a basic model for writing a Unix command in Python. The layout divides
+the program into two parts: (1) a very short script that acts as the entry
+point, and (2) a program module that provides all the program functionality.
+This allows us to use the program as an executable command, and also allows us
+to import the entire program as Python module, and have access to all its
+internals.
+
+Much of the basic skeleton mirrors the way this type of program would be made
+in C, down to the use of a main() function with argv, returning an integer
+status code to the environment, etc.
+
+py-unix-cmd is written in Python 3 and is PUBLIC DOMAIN. Feel free to copy it
+and use it however you wish.

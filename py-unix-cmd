@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+
+""" Program executable. """
+
+import sys
+import py_unix_cmd
+
+if __name__ == '__main__':
+    sys.exit(py_unix_cmd.main(sys.argv))
